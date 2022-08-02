@@ -1,0 +1,70 @@
+
+.navbar{
+    background: hsl(32, 100%, 49%);
+
+}
+.nav-link , .navbar-brand{
+    color: #10361c;
+    cursor: pointer;
+    
+}
+.nav-link{
+    margin-right: 1em!important;
+
+}
+.nav-link:hover{
+    background: #f4f4f4;
+    color: #00aef9;
+
+}
+.navbar-collapse{
+    justify-content: flex-end;
+
+}
+.navbar-toggler{
+    background: #fff!important;
+
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(13, 4, 180, 0.725);
+}
+
+.team .item:hover .des{
+    height: 100%;
+    color: #ece6ea7d;
+    position: absolute;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+}
+
+.contact-form{
+    margin: 6em 0;
+    position: relative;
+}
+.contact-form h1{
+    padding:2em 1px;
+    color: hsl(305, 100%, 49%);
+}
+.contact-form .right{
+    max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+    background: #f97300;
+    color: #fff;
+    border: 0;
+}
+.contact-form .right .form-control::placeholder{
+    color:  #888;
+    font-size: 16px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway)
+
